@@ -1,39 +1,87 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.4">
   <diagram name="第 1 页" id="sFfELCCDUrmLSX4tHXTz">
-    <mxGraphModel>
+    <mxGraphModel dx="1445" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="CUSTOMER" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="127" y="20" width="100" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="3" value="ORDER" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="195" width="100" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="4" value="LINE-ITEM" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="370" width="100" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="DELIVERY-ADDRESS" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="195" width="129" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="places" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERmany;endSize=10;;exitX=0.04;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3dLr1gdKLqpo7grVLyGn-12" target="3dLr1gdKLqpo7grVLyGn-14">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="70" y="145" />
-            </Array>
+            <mxPoint x="585" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7" value="contains" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERoneToMany;endSize=10;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-12" value="板卡点击Start/Continue, 同一WorkSpace下" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3dLr1gdKLqpo7grVLyGn-14" target="3dLr1gdKLqpo7grVLyGn-16">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <mxPoint x="585" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8" value="uses" style="curved=1;dashed=1;startArrow=ERoneToMany;startSize=10;;endArrow=ERoneToMany;endSize=10;;exitX=0.96;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="2" target="5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="285" y="145" />
-            </Array>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-17" value="是&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3dLr1gdKLqpo7grVLyGn-15">
+          <mxGeometry x="-0.0467" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3dLr1gdKLqpo7grVLyGn-14" target="3dLr1gdKLqpo7grVLyGn-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-20" value="否&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3dLr1gdKLqpo7grVLyGn-19">
+          <mxGeometry x="-0.0749" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-14" value="&lt;span class=&quot;notion-enable-hover&quot; data-token-index=&quot;0&quot; style=&quot;color:rgba(55, 53, 47, 1)&quot;&gt;WorkSpace 是否有正在计时的板子&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="250" width="205" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3dLr1gdKLqpo7grVLyGn-16" target="3dLr1gdKLqpo7grVLyGn-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-25" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3dLr1gdKLqpo7grVLyGn-24">
+          <mxGeometry x="0.0011" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3dLr1gdKLqpo7grVLyGn-16" target="3dLr1gdKLqpo7grVLyGn-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-28" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3dLr1gdKLqpo7grVLyGn-27">
+          <mxGeometry x="-0.3676" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-16" value="是否点击过人工 Pause" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="495" y="450" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-18" value="此板卡开始机器计时" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="785" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-23" value="停止所有板卡的机器计时（同一WorkSpace下）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="447.5" y="680" width="275" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3dLr1gdKLqpo7grVLyGn-26" target="3dLr1gdKLqpo7grVLyGn-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-35" value="是&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3dLr1gdKLqpo7grVLyGn-32">
+          <mxGeometry x="-0.1111" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3dLr1gdKLqpo7grVLyGn-26" target="3dLr1gdKLqpo7grVLyGn-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-36" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3dLr1gdKLqpo7grVLyGn-34">
+          <mxGeometry x="-0.25" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-26" value="其他板卡最后一次开始计时时间是否大于5 min" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="746.25" y="445" width="197.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-31" value="开始此板卡机器计时，并停止其他所有板卡机器计时" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="721.25" y="820" width="247.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="3dLr1gdKLqpo7grVLyGn-33" value="开始此板的机器计时&amp;nbsp;&amp;nbsp; 停止5分钟前开始计时且未停止机器计时的板卡" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="462.5" width="185" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
